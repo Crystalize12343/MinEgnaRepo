@@ -1,0 +1,95 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+.red{
+    background-color:red;
+    animation: slideInTop 2s;
+    animation-fill-mode: backwards;
+}
+
+
+.green{
+    background-color:green;
+    animation: slideInRight 2s 2s ease-out;
+    animation-fill-mode: backwards;
+}
+
+.blue{
+    background-color:blue;
+    animation: appear 2s 4s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes slideInTop {
+    0%{
+       transform: translateY(-400px);
+    }
+    
+    100%{
+        transform: translate(0);
+    }
+}
+
+@keyframes slideInRight {
+    0%{
+       transform: translateX(400px);
+       opacity: 0;
+    }
+    
+    100%{
+         transform: translateX(0);
+    }
+}
+
+@keyframes appear{
+    
+    0% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .box {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width 481pxa) {
+    .box {
+        width: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
