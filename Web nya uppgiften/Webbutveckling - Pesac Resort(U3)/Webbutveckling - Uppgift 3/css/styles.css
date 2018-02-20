@@ -3,10 +3,10 @@
     padding: 0;
 }
 body{
-  font-family: "roboto", sans-serif;
+  font-family: "roboto";
   padding:0;
   margin:0; 
-  background-color:#f4f4f4;
+  background-color:#333;
 }
 
 
@@ -20,16 +20,21 @@ h2{
     text-align: center;
 }
 
+p{
+    font-size: 20px;
+    
+}
+
 .header-text-box {
     border-style: solid;
     border-color: #fff;
     width: 500px;
     position: absolute;
     padding: 50px 0px;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%,-50%);
-    /*background-color: rgba(9, 132, 227, 0.6);*/
+    background-color: rgba(9, 132, 227, 0.6);
 }
 
 header{
@@ -37,8 +42,37 @@ header{
     background-image: url(/img/hero.jpg); 
     background-position: center;
     color: #fff;
+    background-size: cover;
+}
+/* Boka nu knappen */
+.Boka {
+    text-decoration: none;
+    background-color: #0984e3;
+    width: 200px;
+    position: absolute;
+    padding: 15px 0;
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+    border-style: solid;
+}
+
+.Form {
+    position: absolute;
+    padding: 15% 3%;
+    border-style: solid;
+    width: 55%;
     
-/*    background-color: rgba(9, 132, 277, 0.6);*/
+}
+
+.personer{
+          width: 50px;
+}
+
+.rum{
+    width: 50px;
 }
 
 
@@ -109,7 +143,26 @@ header{
 
 
 
-@media screen and (max-width: 480px)
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .Form {
+        padding: 200px;
+    }
+    .header-text-box{
+        padding: 30px 25px;
+    }
+}
 
 
 
