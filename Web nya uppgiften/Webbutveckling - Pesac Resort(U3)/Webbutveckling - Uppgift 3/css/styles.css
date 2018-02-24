@@ -29,7 +29,7 @@ h2{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    /*background-color: rgba(9, 132, 227, 0.6);*/
+    background-color: rgba(9, 132, 227, 0.6);
 }
 
 header{
@@ -37,8 +37,7 @@ header{
     background-image: url(/img/hero.jpg); 
     background-position: center;
     color: #fff;
-    
-/*    background-color: rgba(9, 132, 277, 0.6);*/
+    background-color: rgba(9, 132, 227, 0.6);
 }
 
 
